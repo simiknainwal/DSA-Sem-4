@@ -91,11 +91,11 @@ class MaxHeap{
 };
 
 int main(){
-    vector<int>arr={10,20,30,40,50};
+    vector<int>arr={1,5,3,2,4};
     MaxHeap h(arr) ;
     // h.buildHeap(arr);
     h.print();
     cout<<endl;
     h.heapSort();
-    h.print();
+    // h.print();
 }
